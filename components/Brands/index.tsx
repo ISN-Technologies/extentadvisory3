@@ -32,12 +32,12 @@ const brandsData: Brand[] = [
     href: "https://",
     image: "/images/brands/tls.png",
   },
-  {
-    id: 6,
-    name: "ZLS",
-    href: "https://",
-    image: "/images/brands/zls.png",
-  },
+  // {
+  //   id: 6,
+  //   name: "ZLS",
+  //   href: "https://",
+  //   image: "/images/brands/zls.png",
+  // },
 ];
 
 const Brands = () => {
