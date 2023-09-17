@@ -1108,6 +1108,12 @@ input#checkboxLabel:checked ~ .box span{
   --tw-bg-opacity: 1;
   background-color: rgb(29 33 68 / var(--tw-bg-opacity));
 }
+.bg-\[\]{
+  background-color: ;
+}
+.bg-\[url\]{
+  background-color: url;
+}
 .bg-opacity-\[15\%\]{
   --tw-bg-opacity: 15%;
 }
@@ -1122,6 +1128,30 @@ input#checkboxLabel:checked ~ .box span{
 }
 .bg-opacity-75{
   --tw-bg-opacity: 0.75;
+}
+.bg-\[url\(\)\]{
+  background-image: url();
+}
+.bg-\[url\(\'\'\)\]{
+  background-image: url('');
+}
+.bg-\[url\(\'\'\/\)\]{
+  background-image: url(''/);
+}
+.bg-\[url\(\'\/images\'\)\]{
+  background-image: url('/images');
+}
+.bg-\[url\(\'\/images\/\'\)\]{
+  background-image: url('/images/');
+}
+.bg-\[url\(\'\/images\/hero\'\)\]{
+  background-image: url('/images/hero');
+}
+.bg-\[url\(\'\/images\/hero\/hero\'\)\]{
+  background-image: url('/images/hero/hero');
+}
+.bg-\[url\(\'\/images\/hero\/hero\.png\'\)\]{
+  background-image: url('/images/hero/hero.png');
 }
 .fill-current{
   fill: currentColor;
